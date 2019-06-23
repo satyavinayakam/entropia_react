@@ -1,0 +1,67 @@
+body {
+  padding:0;
+  margin:0;
+  background-image: url('./assets/images/bg.jpg');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-panel {background-color: #eeeeee; padding: 20px 0;}
+
+.thumbnail img {
+
+  padding-right:15px;
+  }
+
+  /* Added some padding to make it more readable */
+  
+  div[class^="col-"] {
+      padding:20px;
+  }
+
+  .media-heading {
+      padding-left:20px;
+      font-size: 22px;
+
+  }
+  .details-movie {
+      padding-left:20px; 
+  }
+
+  .producer strong { font-size: 22px;}
+  .producer {font-size: 18px; border: 1px solid #cccccc; padding:5px; margin:10px 0;}
+/* Style the search field */
+form.search input[type=text] {
+padding: 10px;
+font-size: 17px;
+border: 1px solid grey;
+float: left;
+width: 80%;
+background: #f1f1f1;
+}
+
+/* Style the submit button */
+form.search button {
+float: left;
+width: 20%;
+padding: 10px;
+background: #2196F3;
+color: white;
+font-size: 17px;
+border: 1px solid grey;
+border-left: none; /* Prevent double borders */
+cursor: pointer;
+}
+
+form.search button:hover {
+background: #0b7dda;
+}
+
+/* Clear floats */
+form.search::after {
+content: "";
+clear: both;
+display: table;
+}
